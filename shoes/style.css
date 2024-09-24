@@ -1,0 +1,193 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    padding: 0px;
+    margin: 0px;
+    
+ 
+}
+.main{
+    overflow-x: hidden;
+}
+
+.parent{
+    
+    width: 100%;
+    height: 500vh;
+   
+ background-image: url(frame/frame_0001.jpeg);
+ background-repeat: repeat;
+ background-size: 100vw;
+
+}
+.child{
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: absolute;
+    background-color: rgb(161, 63, 63);
+}
+.child canvas{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.divs{
+    width: 100%;
+    height: 200vh;
+
+    position: relative;
+}
+nav {
+    width: 100%;
+    height: 5vw;
+    z-index: 88;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+.logo svg{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.midNav {
+    display: flex;
+    gap: 3vw;
+}
+
+.midNav h3 {
+    font-size: 1.4vw;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.icon i {
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home {
+    width: 100vw;
+    height: 100vh;
+position: relative;
+}
+
+.images {
+    width: 500%;
+    height: 100%;
+    
+    display: flex;
+ 
+}
+
+.shoes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shoes img{
+    transform:rotate(-15deg);
+    position: absolute;
+}
+
+.shoes1 {
+    background-color:#7D5BBB;
+}
+
+.shoes2 {
+    background-color:#ABB3B9;
+}
+
+.shoes3 {
+    background-color: #7FA38C;
+}
+
+.shoes4 {
+    background-color:#A6D9D3;
+}
+
+.shoes5 {
+    background-color: #acaca4;
+}
+.colors{
+  position: absolute;
+    width: 25vw;
+    height: 7vh;
+   top: 85%;
+   left: 50%;
+   transform: translate(-50%,0%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0px 20px;
+}
+.colors .colorPicker{
+    width: 2vw;
+    height:2vw;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.page1{
+    
+    width: 100vw;
+    height: 110vh;
+    background-color: #7FA38C;
+  display: flex;
+  background-color: gray;
+    
+}
+.left{
+    width: 50%;
+    height: 100%;
+    
+}
+.right{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 6%;
+    padding-right: 8%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+.right button{
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    border: none;
+}
