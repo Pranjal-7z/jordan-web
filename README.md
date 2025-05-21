@@ -27,6 +27,9 @@ It was an **exhilarating challenge** exploring real-time projects and bringing c
 - **Canvas API**
 - **GSAP (GreenSock Animation Platform)**
 
+---
+
+
 Clone the repository:
 
 ```bash
